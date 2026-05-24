@@ -6,7 +6,7 @@
 
 body {
     display: grid;
-    grid-template-columns: 200px 1fr 200px;
+    grid-template-columns: 300px 1fr 300px;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
         "header header header"
@@ -28,6 +28,7 @@ header {
     justify-content: center;
     font-size: 1.5em;
     font-weight: bold;
+    height: 70px;
 }
 
 nav {
@@ -88,6 +89,7 @@ aside {
     background: #f39c12;
     padding: 15px;
     color: white;
+    width: auto;
 }
 
 footer {
@@ -98,4 +100,5 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 1.2em;
+    height: 70px;
 }
